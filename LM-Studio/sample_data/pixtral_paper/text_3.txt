@@ -1,0 +1,9 @@
+For instance, our model matches or exceeds the performance of models like Qwen2-VL 7B [23] and
+Llama-3.2 11B [6] on popular multimodal benchmarks like MMMU [24] and MathVista [14],
+while outperforming most open-source models on popular text-only tasks like MATH [7] and
+HumanEval [26]. Pixtral even outperforms much larger models like Llama-3.2 90B [6], as well as
+closed models such as Claude-3 Haiku [1] and Gemini-1.5 Flash 8B [18], on multimodal benchmarks.
+During evaluation of Pixtral and the baselines, we found that evaluation protocols for multimodal
+language models is not standardized, and that small changes in the setup can dramatically change
+the performance of some models. We provide thorough analysis of our experience in re-evaluating
+vision-language models under a common evaluation protocol.

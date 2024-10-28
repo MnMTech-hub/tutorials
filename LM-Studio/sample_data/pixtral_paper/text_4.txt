@@ -1,0 +1,10 @@
+Specifically, we identify two issues with evaluation:
+• Prompts: Several benchmarks have default prompts which are under-specified, and dramatically
+reduce the performance of leading closed source models [16, 1] compared to reported figures.
+• Evaluation Metrics: The official metrics typically require exact match, which score model
+generations as correct only if they exactly match the reference answer. However, this metric penalizes
+answers which are substantively correct but in a slightly different format (e.g., "6.0" vs "6").
+To alleviate these issues, we propose ‘Explicit’ prompts that explicitly specify the format required by
+the reference answer. We further analyze the impact of flexible parsing for various models, releasing
+the evaluation code and prompts in an effort to establish fair and standardized evaluation protocols1
+.

@@ -1,0 +1,11 @@
+1 Introduction
+This paper describes Pixtral 12B, a multimodal language model trained to understand both images
+and text, released with open weights under an Apache 2.0 license. Pixtral is an instruction tuned
+model which is pretrained on large scale interleaved image and text documents, and hence is capable
+of multi-turn, multi-image conversation.
+Pixtral comes with a new vision encoder which is trained with a novel ROPE-2D implementation,
+allowing it to process images at their native resolution and aspect ratio. In this way, the model can
+flexibly process images at low resolution in latency-constrained settings, while processing images
+at high resolution when fine-grained reasoning is required.
+When compared against models of a similar size in the same evaluation setting, we find that Pixtral
+delivers strong multimodal reasoning capabilities without sacrificing text-only reasoning performance.
