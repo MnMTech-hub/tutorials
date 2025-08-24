@@ -1,4 +1,7 @@
 .ipynb_checkpoints/
 *-Chains/
-*.yml
+*yml
 *env
+
+!*public.env
+!*public.yml
